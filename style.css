@@ -236,7 +236,7 @@
 }
 
 /* all simillar styling code*/
-.about, .services, .skills, .teams, .contact{
+.about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -569,6 +569,22 @@ section .title::after{
 .contact .right form .button button:hover{
     color: crimson;
     background: none;
+}
+
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+}
+
+footer span a{
+    color: crimson;
+    text-decoration: none
+}
+
+footer span a:hover{
+    text-decoration: underline;
 }
 
 /* responsive media query start */
