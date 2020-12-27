@@ -23,6 +23,14 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
+    //typing animation script
+    var typed = new Typed(".typing", {
+        strings: ["Android Developer","YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
     // ow carousel script
     $('.carousel').owlCarousel({
         margin: 20,
