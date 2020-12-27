@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -77,6 +81,32 @@
      font-size: 23px;
      cursor: pointer;
      display: none;
+}
+
+/* scroll up styling */
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    background: crimson;
+    border-radius: 50%;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease;
+}
+
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 /* home section styling */
